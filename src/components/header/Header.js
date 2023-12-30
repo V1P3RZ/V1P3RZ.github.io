@@ -119,7 +119,7 @@ function Header(props) {
                 activeStyle={{ fontWeight: "bold" }}
                 style={{ borderRadius: 5, color: theme.text }}
               >
-                Projects
+                Blogs
               </NavLink>
             </li>
             <li>
@@ -133,19 +133,7 @@ function Header(props) {
                 Contact and Resume
               </NavLink>
             </li>
-            <li>
-              <a
-                className="cr"
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://play.google.com/store/apps/details?id=com.picle.journalify"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Journalify
-              </a>
-            </li>
+            <li></li>
             <button {...styles} onClick={changeTheme}>
               {icon}
             </button>

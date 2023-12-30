@@ -59,7 +59,7 @@ function Projects(props) {
         target="_blank"
         rel="noopener noreferrer"
       >
-        More Projects (Github)
+        There is more coming...
       </a>
       <br />
       <br />
